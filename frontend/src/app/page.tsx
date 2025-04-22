@@ -36,6 +36,11 @@ export default function Home() {
   console.log("Hello My django data: ", data);
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <Head>
+        <title>My Data Project</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-6xl font-bold">Welcome to My Dashboad </h1>
         <p className="border text-gray-500 px-2">Here we go...</p>
